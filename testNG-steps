@@ -1,0 +1,16 @@
+1) Set the classpath for the testng.jar in the environment variables
+(either manually or via command line).
+
+2) Create a new folder "MyTest".
+
+3) Compile all your classes(testNG+java) and put them(.class files )
+in a new folder "Mytest\bin".
+
+4) Put your 'testng.xml' and '.properties' files to "Mytest\bin"
+again.
+
+5) Put all the .jar files (testng,selenium... etc) in a new folder
+"Mytest\lib".
+
+6) Browse to the folder "bin" via command line and run the command
+java -cp "..\lib\*;" org.testng.TestNG testng.xml
